@@ -15,3 +15,6 @@ class Queue:
 
     def dequeue(self, value):
         self.push(value)
+
+    def front(self):
+        return self.data[0]
